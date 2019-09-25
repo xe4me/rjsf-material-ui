@@ -23,23 +23,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/cybertec-postgresql/rjsf-material-ui">
-    <img src="https://raw.githubusercontent.com/cybertec-postgresql/rjsf-material-ui/master/rjsf-material-ui-logo.png" alt="Logo" width="140" height="120">
+  <a href="https://github.com/cybertec-postgresql/asx-rjsf-material-ui">
+    <img src="https://raw.githubusercontent.com/cybertec-postgresql/asx-rjsf-material-ui/master/asx-rjsf-material-ui-logo.png" alt="Logo" width="140" height="120">
   </a>
 
-  <h3 align="center">rjsf-material-ui</h3>
+  <h3 align="center">asx-rjsf-material-ui</h3>
 
   <p align="center">
   Material-UI theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
     <br />
-    <a href="https://github.com/cybertec-postgresql/rjsf-material-ui"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/cybertec-postgresql/asx-rjsf-material-ui"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://cybertec-postgresql.github.io/rjsf-material-ui/">View Playground</a>
+    <a href="https://cybertec-postgresql.github.io/asx-rjsf-material-ui/">View Playground</a>
     ·
-    <a href="https://github.com/cybertec-postgresql/rjsf-material-ui/issues">Report Bug</a>
+    <a href="https://github.com/cybertec-postgresql/asx-rjsf-material-ui/issues">Report Bug</a>
     ·
-    <a href="https://github.com/cybertec-postgresql/rjsf-material-ui/issues">Request Feature</a>
+    <a href="https://github.com/cybertec-postgresql/asx-rjsf-material-ui/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,7 +62,7 @@
 
 ## About The Project
 
-[![rjsf-material-ui Screen Shot][product-screenshot]](https://cybertec-postgresql.github.io/rjsf-material-ui)
+[![asx-rjsf-material-ui Screen Shot][product-screenshot]](https://cybertec-postgresql.github.io/asx-rjsf-material-ui)
 
 Exports `material-ui` theme, fields and widgets for `react-jsonschema-form`.
 
@@ -89,7 +89,7 @@ yarn add @material-ui/core @material-ui/icons react-jsonschema-form
 ### Installation
 
 ```sh
-yarn add rjsf-material-ui
+yarn add asx-rjsf-material-ui
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -98,7 +98,7 @@ yarn add rjsf-material-ui
 
 ```javascript
 import { withTheme } from 'react-jsonschema-form';
-import { Theme as MuiTheme } from 'rjsf-material-ui';
+import { Theme as MuiTheme } from 'asx-rjsf-material-ui';
 
 const Form = withTheme(MuiTheme);
 ```
@@ -106,14 +106,14 @@ const Form = withTheme(MuiTheme);
 or
 
 ```javascript
-import MuiForm from 'rjsf-material-ui';
+import MuiForm from 'asx-rjsf-material-ui';
 ```
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://cybertec-postgresql.github.io/rjsf-material-ui/issues) for a list of proposed features (and known issues).
+See the [open issues](https://cybertec-postgresql.github.io/asx-rjsf-material-ui/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -139,20 +139,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Cybertec TEAM - [@postgressupport](https://twitter.com/postgressupport) - office@cybertec.at - https://www.cybertec-postgresql.com
 
-Project Link: [https://cybertec-postgresql.github.io/rjsf-material-ui](https://cybertec-postgresql.github.io/rjsf-material-ui)
+Project Link: [https://cybertec-postgresql.github.io/asx-rjsf-material-ui](https://cybertec-postgresql.github.io/asx-rjsf-material-ui)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[build-shield]: https://img.shields.io/circleci/build/github/cybertec-postgresql/rjsf-material-ui.svg?style=flat-square&token=a58b0890f96bff2b53eef0f4d9c9e5d16eec2200
-[build-url]: https://circleci.com/gh/cybertec-postgresql/rjsf-material-ui
+[build-shield]: https://img.shields.io/circleci/build/github/cybertec-postgresql/asx-rjsf-material-ui.svg?style=flat-square&token=a58b0890f96bff2b53eef0f4d9c9e5d16eec2200
+[build-url]: https://circleci.com/gh/cybertec-postgresql/asx-rjsf-material-ui
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[contributors-url]: https://github.com/cybertec-postgresql/rjsf-material-ui/graphs/contributors
+[contributors-url]: https://github.com/cybertec-postgresql/asx-rjsf-material-ui/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
-[npm-shield]: https://img.shields.io/npm/v/rjsf-material-ui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/rjsf-material-ui
-[npm-dl-shield]: https://img.shields.io/npm/dm/rjsf-material-ui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/rjsf-material-ui
-
-[product-screenshot]: https://raw.githubusercontent.com/cybertec-postgresql/rjsf-material-ui/master/screenshot.png
+[npm-shield]: https://img.shields.io/npm/v/asx-rjsf-material-ui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/asx-rjsf-material-ui
+[npm-dl-shield]: https://img.shields.io/npm/dm/asx-rjsf-material-ui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/asx-rjsf-material-ui
+[product-screenshot]: https://raw.githubusercontent.com/cybertec-postgresql/asx-rjsf-material-ui/master/screenshot.png

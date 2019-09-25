@@ -38,7 +38,11 @@ const ObjectFieldTemplate = ({
           description={description}
         />
       )}
-      <Grid container={true} spacing={2} className={classes.root}>
+      <Grid
+        container={true}
+        spacing={2}
+        className={`${classes.root} ${uiSchema['ui:className'] || ''}`}
+      >
         {properties.map((element: any, index: number) => (
           <Grid
             item={true}
